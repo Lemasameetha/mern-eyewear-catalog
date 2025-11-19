@@ -1,0 +1,62 @@
+/* 🌈 Stylish Compact Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 40px; /* reduced height */
+  background: linear-gradient(to right, #504968, #7558c5, #7b61bc);
+  color: white;
+  box-shadow: 0 2px 4px rgba(206, 106, 106, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+/* 👓 Logo */
+.navbar-logo {
+  font-size: 1.3rem; /* slightly smaller */
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* 🔗 Links */
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* reduced spacing */
+}
+
+.navbar-links a {
+  color: #fdfdff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem; /* smaller font */
+  transition: all 0.3s ease;
+  padding: 4px 8px; /* reduced padding */
+  border-radius: 6px;
+}
+
+.navbar-links a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+
+/* 🔘 Logout Button - match Dashboard link style */
+.logout-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-2px);
+}
+

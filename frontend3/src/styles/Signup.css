@@ -1,0 +1,128 @@
+/* 🌈 Background Gradient */
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #d3c6f3, #f4e6f2);
+  font-family: "Poppins", sans-serif;
+}
+
+/* 📦 Center Card */
+.signup-container {
+  display: flex;
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  background: #fff;
+}
+
+/* 📝 Left Section (Form) */
+.signup-form-section {
+  flex: 1;
+  background: #fff;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-form-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #37278a;
+}
+
+.signup-form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 👥 Name Fields in One Line */
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form-section input,
+.signup-form-section select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.signup-form-section input:focus,
+.signup-form-section select:focus {
+  border-color: #5c3df5;
+  box-shadow: 0 0 5px rgba(92, 61, 245, 0.3);
+}
+
+/* 💜 Signup Button */
+.signup-form-section button {
+  background: #37278ab9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.signup-form-section button:hover {
+  background: #ccc8e4;
+  color: #37278a;
+}
+
+/* 🔗 Login Redirect */
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #6049d4e1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* 🌟 Right Info Section */
+.signup-info-section {
+  flex: 1;
+  background: linear-gradient(135deg, #5734e3b7, #2e253fed);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.signup-info-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.signup-info-section p {
+  font-size: 14px;
+  max-width: 220px;
+  line-height: 1.5;
+}
+
+/* ⚠️ Error Message */
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}

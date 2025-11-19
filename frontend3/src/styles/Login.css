@@ -1,0 +1,104 @@
+/* Background Gradient */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(120deg, #d3c6f3, #f4e6f2);
+}
+
+/* Center Card */
+.login-container {
+  display: flex;
+  width: 650px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  background: white;
+}
+
+/* Left Form Section */
+.login-form-section {
+  flex: 1;
+  background: #fff;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form-section input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.login-form-section button {
+  background: #37278ab9;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-form-section button:hover {
+  background: #ccc8e4;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-link a {
+  color: #6049d4e1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Right Info Section */
+.login-info-section {
+  flex: 1;
+  background: linear-gradient(135deg, #5734e3b7, #2e253fed);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-info-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.login-info-section p {
+  font-size: 14px;
+  text-align: center;
+  max-width: 200px;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}

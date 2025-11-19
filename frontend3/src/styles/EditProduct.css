@@ -1,0 +1,85 @@
+/* EditProduct.css */
+body {
+  padding-bottom: 100px; /* 👈 ensures space below the box */
+}
+
+.edit-product-container {
+  max-width: 600px;
+   margin: 20px auto 80px auto; /* add bottom margin */
+  padding: 2px 50px 70px 40px; /* increase bottom padding */
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  
+  /* ✅ Scroll fix for long forms */
+ max-height: 100vh;
+overflow-y: auto;
+   
+ margin-bottom: 100px !important;
+}
+
+.edit-product-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #3f336c;
+  font-weight: 600;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.edit-form label {
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 4px;
+}
+
+.edit-form input,
+.edit-form select,
+.edit-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: 0.2s ease;
+  width: 100%;
+}
+
+.edit-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-form input:focus,
+.edit-form select:focus,
+.edit-form textarea:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.3);
+  outline: none;
+}
+
+.edit-form button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.25s;
+  margin-top: 25px;
+}
+
+.edit-form button:hover {
+  background-color: #5848e4;
+}
+
+/* ✅ Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

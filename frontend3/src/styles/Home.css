@@ -1,0 +1,88 @@
+/* 🌈 Background Gradient */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #d3c6f3, #f4e6f2);
+  text-align: center;
+  color: #37278a;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+/* ✨ Heading */
+.home h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #37278a;
+  margin-bottom: 15px;
+  letter-spacing: 0.5px;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+/* 💬 Subtext */
+.home p {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* 💜 Get Started Button */
+.get-started-btn {
+  background-color: #37278ab9;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(125, 79, 255, 0.3);
+  transition: all 0.3s ease;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.get-started-btn:hover {
+  background-color: #ccc8e4;
+  color: #37278a;
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(125, 79, 255, 0.5),
+              0 6px 15px rgba(105, 57, 225, 0.3);
+}
+
+/* ✨ Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
