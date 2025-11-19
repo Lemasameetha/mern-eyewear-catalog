@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue" />
+  <img src="https://img.shields.io/badge/Node.js-Express-green" />
+  <img src="https://img.shields.io/badge/MongoDB-Mongoose-brightgreen" />
+  <img src="https://img.shields.io/badge/JWT-Auth-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+  <img src="https://img.shields.io/github/stars/Lemasameetha/mern-eyewear-catalog?style=social" />
+</p>
+
 # Eyewear Catalog Management System 👓 (MERN Stack)
 
 A full-stack Role-Based Eyewear Management System built using the MERN stack.  
